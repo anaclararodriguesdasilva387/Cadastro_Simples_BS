@@ -7,4 +7,9 @@ while True:
     print("2 - Fazer login")
     print("3 - Sair")
 
-    opcao = input("Escolha uma opcão: ")
+    opcao = int(input("Escolha uma opcão: "))
+
+    if (opcao == 1 ) : 
+        print("==========================")
+        print("=====Tela de Cadastro=====")
+        print("==========================")
